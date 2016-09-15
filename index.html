@@ -22,6 +22,16 @@
 			top:0;
 			left:0;
 		}
+		
+		#sland-video {
+			position: absolute;
+			top: 0;
+			left: 0;
+			min-height: 100%;
+			min-width: 100%;
+		}
+		
+		
 			
 		</style>
 		
@@ -29,7 +39,7 @@
 	<body>
 		
     	<div class="background-wrap">
-        	<video preload = "auto" autoplay = "true" loop = "loop" muted="muted">
+        	<video id="sland-video" preload = "auto" autoplay = "true" loop = "loop" muted="muted">
         		<source src="Fade-To-Black/Fade-To-Black.mp4" type="video/mp4"/>
             		<source src="Fade-To-Black/Fade-To-Black.webm" type="video/webm"/>
             		Video not supported
